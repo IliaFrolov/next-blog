@@ -4,7 +4,7 @@ import {
   InferGetStaticPropsType,
   NextPage,
 } from "next";
-import { readPostsInfo } from "../../lib/helpers";
+import { readPostsInfo } from "../lib/helpers";
 import fs from "fs";
 import path from "path";
 import { ParsedUrlQuery } from "querystring";
